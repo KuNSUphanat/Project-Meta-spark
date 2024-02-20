@@ -697,6 +697,54 @@
         },
         {
           "sectionFileLocation": "textures/tree.texture"
+        },
+        {
+          "modelName": "sequenceTexture",
+          "name": "animationSequence0",
+          "identifier": "sequenceTexture:11200-c711fcd2-eab7-45dc-97f9-7441762f2154",
+          "loop": false,
+          "sourceTextureIdentifier": "textureGroup:12292-c711fcd2-eab7-45dc-97f9-7441762f2154"
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "[1-2]3",
+          "identifier": "textureGroup:12292-c711fcd2-eab7-45dc-97f9-7441762f2154",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:12286-c711fcd2-eab7-45dc-97f9-7441762f2154",
+            "texture:12290-c711fcd2-eab7-45dc-97f9-7441762f2154"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/tree(1).texture"
+            },
+            {
+              "sectionFileLocation": "textures/ดาวน์โหลด-removebg-preview (2).texture"
+            }
+          ]
+        },
+        {
+          "modelName": "sequenceTexture",
+          "name": "colliderSequence3",
+          "identifier": "sequenceTextur174084-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
+          "loop": false,
+          "sourceTextureIdentifier": "textureGroup174083-e0f8cc38-ad7a-4646-a39d-8294ff9b4010"
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "[1-2]4",
+          "identifier": "textureGroup174083-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
+          "sequenceFramesTextureIdentifiers": [
+            "texture174087-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
+            "texture174088-e0f8cc38-ad7a-4646-a39d-8294ff9b4010"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/0-5.texture"
+            },
+            {
+              "sectionFileLocation": "textures/1-5.texture"
+            }
+          ]
         }
       ]
     },
@@ -705,7 +753,7 @@
       "identifier": "materials:121042-f9420236-7f87-4290-8852-25e5bacc0784",
       "children": [
         {
-          "sectionFileLocation": "materials/Road.material"
+          "sectionFileLocation": "materials/Road-2.material"
         },
         {
           "sectionFileLocation": "materials/city.material"
@@ -733,6 +781,12 @@
         },
         {
           "sectionFileLocation": "materials/material3.material"
+        },
+        {
+          "sectionFileLocation": "materials/Tree-light.material"
+        },
+        {
+          "sectionFileLocation": "materials/material5-2.material"
         }
       ]
     },
@@ -743,6 +797,13 @@
       "modelName": "layers",
       "identifier": "layers:121050-f9420236-7f87-4290-8852-25e5bacc0784",
       "children": [
+        {
+          "modelName": "layer",
+          "name": "layer2",
+          "identifier": "layer:9038-c711fcd2-eab7-45dc-97f9-7441762f2154",
+          "color": "0xfff25269",
+          "generationIndex": 2
+        },
         {
           "modelName": "layer",
           "name": "layer1",
@@ -1993,7 +2054,7 @@
       "effectUsesTexturesScriptingModule": false,
       "effectUsesTimeScriptingModule": false,
       "effectUsesToasterTracking": false,
-      "effectUsesTouchGestures": false,
+      "effectUsesTouchGestures": true,
       "effectUsesTwoDimensionalText": false,
       "effectUsesTypeScript": false,
       "effectUsesUiCore": false,
@@ -2023,7 +2084,7 @@
       "faceExpressionFittingMinVersion": 15,
       "faceExpressionFittingRTRRetargetingMinVersion": 1,
       "faceTrackerIsEnabled": false,
-      "faceTrackerMaxFaces": 3,
+      "faceTrackerMaxFaces": 1,
       "faceTrackerMinVersion": 10,
       "facewaveMinVersion": 1,
       "hairSegmentationMinVersion": 1,
@@ -2072,7 +2133,7 @@
       "touchGesturesSupportsPinch": false,
       "touchGesturesSupportsRawTouch": false,
       "touchGesturesSupportsRotate": false,
-      "touchGesturesSupportsTap": false,
+      "touchGesturesSupportsTap": true,
       "whitelistedDomains": null,
       "witAppId": null,
       "witClientToken": null,
