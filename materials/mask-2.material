@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "Body",
-  "identifier": "defaultMaterial:146114-f9420236-7f87-4290-8852-25e5bacc0784",
+  "name": "mask",
+  "identifier": "defaultMaterial:229827-fbce2074-8d12-4207-998e-16bc8571f3e9",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:146978-f9420236-7f87-4290-8852-25e5bacc0784",
+  "diffuseTextureName": "texture:152224-f9420236-7f87-4290-8852-25e5bacc0784",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -34,7 +34,7 @@
   "isNormalTextureIdentifierEnabled": false,
   "isReflectiveTextureIdentifierEnabled": false,
   "isSpecularTextureIdentifierEnabled": false,
-  "lightingEnabled": true,
+  "lightingEnabled": false,
   "multiplyMode": "alpha_only",
   "multiplyTextureTransform": {
     "offsetU": 0,

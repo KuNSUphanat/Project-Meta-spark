@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "material4",
-  "identifier": "defaultMaterial24210-44893f77-e2d0-40ec-9809-7d0c8b8b7c1c",
+  "name": "Body",
+  "identifier": "defaultMaterial:227307-fbce2074-8d12-4207-998e-16bc8571f3e9",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "sequenceTexture24056-44893f77-e2d0-40ec-9809-7d0c8b8b7c1c",
+  "diffuseTextureName": "texture:146978-f9420236-7f87-4290-8852-25e5bacc0784",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -34,7 +34,7 @@
   "isNormalTextureIdentifierEnabled": false,
   "isReflectiveTextureIdentifierEnabled": false,
   "isSpecularTextureIdentifierEnabled": false,
-  "lightingEnabled": true,
+  "lightingEnabled": false,
   "multiplyMode": "alpha_only",
   "multiplyTextureTransform": {
     "offsetU": 0,

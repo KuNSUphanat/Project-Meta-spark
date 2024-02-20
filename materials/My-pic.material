@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "material3",
-  "identifier": "defaultMaterial:33178-44893f77-e2d0-40ec-9809-7d0c8b8b7c1c",
+  "name": "My-pic",
+  "identifier": "defaultMaterial:21899-fbce2074-8d12-4207-998e-16bc8571f3e9",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:34206-44893f77-e2d0-40ec-9809-7d0c8b8b7c1c",
+  "diffuseTextureName": "texture:23093-fbce2074-8d12-4207-998e-16bc8571f3e9",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,

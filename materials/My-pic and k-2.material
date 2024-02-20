@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "material2",
-  "identifier": "defaultMaterial:27701-44893f77-e2d0-40ec-9809-7d0c8b8b7c1c",
+  "name": "My-pic and k",
+  "identifier": "defaultMaterial:236127-fbce2074-8d12-4207-998e-16bc8571f3e9",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:28721-44893f77-e2d0-40ec-9809-7d0c8b8b7c1c",
+  "diffuseTextureName": "sequenceTexture:29117-fbce2074-8d12-4207-998e-16bc8571f3e9",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -34,7 +34,7 @@
   "isNormalTextureIdentifierEnabled": false,
   "isReflectiveTextureIdentifierEnabled": false,
   "isSpecularTextureIdentifierEnabled": false,
-  "lightingEnabled": true,
+  "lightingEnabled": false,
   "multiplyMode": "alpha_only",
   "multiplyTextureTransform": {
     "offsetU": 0,

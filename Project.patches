@@ -121,6 +121,38 @@
       },
       {
         "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:256427-fbce2074-8d12-4207-998e-16bc8571f3e9",
+        "fromPatch": "template_patch_model:481892-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:492398-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:256429-fbce2074-8d12-4207-998e-16bc8571f3e9",
+        "fromPatch": "template_patch_model:489177-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:492406-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:256431-fbce2074-8d12-4207-998e-16bc8571f3e9",
+        "fromPatch": "template_patch_model:490773-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:492410-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:256433-fbce2074-8d12-4207-998e-16bc8571f3e9",
+        "fromPatch": "template_patch_model:492380-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:14757-fbce2074-8d12-4207-998e-16bc8571f3e9",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
         "identifier": "patch_connection_model:481896-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
         "fromPatch": "template_patch_model:480346-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
         "fromPort": "1002",
@@ -225,38 +257,6 @@
       },
       {
         "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:492404-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "fromPatch": "template_patch_model:481892-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "fromPort": "100",
-        "toPatch": "consumer_patch_model:492398-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "toPort": "101"
-      },
-      {
-        "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:492408-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "fromPatch": "template_patch_model:489177-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "fromPort": "100",
-        "toPatch": "consumer_patch_model:492406-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "toPort": "101"
-      },
-      {
-        "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:492414-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "fromPatch": "template_patch_model:490773-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "fromPort": "100",
-        "toPatch": "consumer_patch_model:492410-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "toPort": "101"
-      },
-      {
-        "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:493616-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "fromPatch": "template_patch_model:492380-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "fromPort": "100",
-        "toPatch": "consumer_patch_model:493614-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "toPort": "101"
-      },
-      {
-        "modelName": "patch_connection_model",
         "identifier": "patch_connection_model:521365-44893f77-e2d0-40ec-9809-7d0c8b8b7c1c",
         "fromPatch": "template_patch_model:182892-44893f77-e2d0-40ec-9809-7d0c8b8b7c1c",
         "fromPort": "102",
@@ -277,10 +277,10 @@
         "modelName": "patch_graph",
         "identifier": "patch_graph:121122-f9420236-7f87-4290-8852-25e5bacc0784",
         "subpatches": [
+          "consumer_patch_model:14757-fbce2074-8d12-4207-998e-16bc8571f3e9",
           "consumer_patch_model:492398-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
           "consumer_patch_model:492406-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
           "consumer_patch_model:492410-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-          "consumer_patch_model:493614-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
           "patch_group_model:487598-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
           "patch_group_model:521369-44893f77-e2d0-40ec-9809-7d0c8b8b7c1c",
           "template_patch_model:184631-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
@@ -301,6 +301,31 @@
       }
     ],
     "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "plane1",
+        "identifier": "consumer_patch_model:14757-fbce2074-8d12-4207-998e-16bc8571f3e9",
+        "object": "plane:28149-fbce2074-8d12-4207-998e-16bc8571f3e9",
+        "objectProperty": "position",
+        "position": [
+          2444,
+          620
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0.09918048232793808,
+                0.08677836507558823,
+                0.05587190389633179
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
       {
         "modelName": "consumer_patch_model",
         "name": "character",
@@ -456,31 +481,6 @@
                 -0.08500560373067856,
                 0.08678441494703293,
                 0.05587199330329895
-              ]
-            }
-          }
-        ],
-        "variantInfo": "local_transform"
-      },
-      {
-        "modelName": "consumer_patch_model",
-        "name": "plane2",
-        "identifier": "consumer_patch_model:493614-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "object": "plane:492420-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-        "objectProperty": "position",
-        "position": [
-          2468,
-          596
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "vec3",
-              "v": [
-                0.08223000168800354,
-                0.08679000288248062,
-                0
               ]
             }
           }
