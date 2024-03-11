@@ -719,7 +719,7 @@
           "modelName": "sequenceTexture",
           "name": "colliderSequence3",
           "identifier": "sequenceTextur174084-e0f8cc38-ad7a-4646-a39d-8294ff9b4010",
-          "loop": false,
+          "frameRate": 2,
           "sourceTextureIdentifier": "textureGroup174083-e0f8cc38-ad7a-4646-a39d-8294ff9b4010"
         },
         {
@@ -768,7 +768,7 @@
         },
         {
           "modelName": "textureGroup",
-          "name": "[1-2]",
+          "name": "[1-2]6",
           "identifier": "textureGroup:26695-fbce2074-8d12-4207-998e-16bc8571f3e9",
           "sequenceFramesTextureIdentifiers": [
             "texture:26689-fbce2074-8d12-4207-998e-16bc8571f3e9",
@@ -795,7 +795,7 @@
         },
         {
           "modelName": "textureGroup",
-          "name": "[1-2]",
+          "name": "[1-2]7",
           "identifier": "textureGroup:31623-fbce2074-8d12-4207-998e-16bc8571f3e9",
           "sequenceFramesTextureIdentifiers": [
             "texture:31617-fbce2074-8d12-4207-998e-16bc8571f3e9",
